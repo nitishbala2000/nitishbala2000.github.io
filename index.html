@@ -1,0 +1,275 @@
+<html>
+
+<head>
+    <title>Practice</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <script src="https://kit.fontawesome.com/096fe1a924.js" crossorigin="anonymous"></script>
+
+    <style>
+
+        html {
+            position: relative;
+            min-height: 100%;
+        }
+
+        
+        body {
+            margin-bottom: 80px; /* Margin bottom by footer height */
+            background-color: #F7F7F7;
+            padding : 0px;
+        }
+
+        .footer {
+           
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            height: 60px; /* Set the fixed height of the footer here */
+            background-color: #FF8A65;
+            padding-top : 20px;
+        }
+
+
+        .section-title {
+            overflow: hidden;
+            text-align: center;
+            margin-top : 25px;
+            margin-bottom : 25px;
+        }
+
+        .section-title:before,
+        .section-title:after {
+            background-color: #606060;
+            content: "";
+            display: inline-block;
+            height: 1px;
+            position: relative;
+            vertical-align: middle;
+            width: 50%;
+        }
+
+        .section-title:before {
+            right: 0.5em;
+            margin-left: -50%;
+        }
+
+        .section-title:after {
+            left: 0.5em;
+            margin-right: -50%;
+        }
+
+     
+        #jumbo {
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-image: url("jumbotron-background.png");
+        }
+
+        #jumbo-circle {
+            margin: auto;
+            background-color: black;
+            width: 400px;
+            height: 400px;
+            border-radius: 200px;
+            position: relative;
+            left: 10%;
+            padding-top: 100px;
+            padding-left: 20px;
+        }
+
+        .white-text {
+            color: white;
+        }
+
+        .badge-list {
+            font-size: 20px;
+        }
+
+        nav {
+            height : 80px;
+        }
+
+        .fab {
+            font-size : 30px;
+            margin-right : 20px;
+        }
+
+        .fab:hover {
+            color : grey !important;
+        }
+
+        @media only screen and (max-width: 600px) {
+            #social-links {
+                display : none;
+            }
+        }
+
+        #brand-nav {
+            margin-left : 60px;
+        }
+
+      
+    </style>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-sm navbar-light bg-light">
+        
+        <ul id="brand-nav" class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <a class="navbar-brand" href="#">Nitish Bala</a>
+            </li>
+        </ul>
+
+        <ul id="social-links" class="navbar-nav ml-auto">
+            <li class="nav-item active">
+                <a class="navbar-brand" href="#"><i class="fab fa-github"></i></a>
+            </li>
+            <li class="nav-item active">
+                <a class="navbar-brand" href="#"><i class="fab fa-facebook"></i></a>
+            </li>
+            <li class="nav-item active">
+                <a class="navbar-brand" href="#"><i class="fab fa-instagram"></i></a>
+            </li>
+        </ul>
+
+
+
+    </nav>
+
+    <div id="jumbo" class="jumbotron">
+
+        <div id="jumbo-circle">
+
+            <h1 class="display-4 white-text text-center">Hi, I'm Nitish</h2>
+            <p class="lead white-text text-muted text-center">20 year old developer</p>
+
+            <p class="lead text-center">
+                <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+            </p>
+
+        </div>
+
+    </div>
+
+    <div class="container">
+
+        <h1 class="section-title">About me</h1>
+
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ac sem tincidunt, dictum nunc hendrerit,
+            posuere mi. Praesent eu ex suscipit, egestas metus eget, dictum eros. Fusce eleifend ante quis rutrum
+            sodales. Aliquam a libero vel nulla condimentum iaculis. In vehicula nisi sem, at commodo ex hendrerit nec.
+            Nunc molestie consectetur accumsan. Donec semper odio at mauris gravida, eget venenatis magna rutrum. Fusce
+            a mauris orci. Praesent eu enim egestas, lobortis ex vel, varius lacus. Nullam dolor diam, condimentum quis
+            turpis a, ultricies imperdiet justo. Nullam lobortis pretium mi ac tincidunt. Maecenas sit amet luctus diam,
+            vel cursus risus.
+        </p>
+
+        <h1 class="section-title">Projects</h1>
+
+        <div class="row justify-content-around">
+
+            <div class="col-sm-3">
+
+                <div class="card">
+                    <img src="photo.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                            of the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="col-sm-3">
+
+                <div class="card">
+                    <img src="photo.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                            of the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="col-sm-3">
+
+                <div class="card">
+                    <img src="photo.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                            of the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+
+            </div>
+
+
+
+            <div class="col-sm-3">
+
+                <div class="card">
+                    <img src="photo.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                            of the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+        <h1 class="section-title">Skills and Languages</h1>
+
+        <p class="text-center badge-list">
+            <span class="badge badge-primary">Java</span>
+            <span class="badge badge-primary">Python</span>
+            <span class="badge badge-primary">VB</span>
+            <span class="badge badge-primary">JavaScript</span>
+            <span class="badge badge-primary">Full MAMP stack</span>
+            <span class="badge badge-primary">Game Development</span>
+        </p>
+
+    </div>
+
+        
+
+    <footer class="footer">
+        
+        <p class="text-muted text-center">&copy;2020 Nitish Bala</p>
+        
+    </footer>
+        
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+</body>
+
+
+</html>
