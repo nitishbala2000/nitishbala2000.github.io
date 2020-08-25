@@ -1,7 +1,8 @@
 <html>
 
 <head>
-    <title>Practice</title>
+    <title>Nitish Bala</title>
+
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
         integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <!-- Required meta tags -->
@@ -104,12 +105,44 @@
 
         @media only screen and (max-width: 600px) {
             #social-links {
-                display : none;
+                /* display : none; */
+            }
+            #brand-nav {
+                margin-left : 5px !important;
+            }
+            .card {
+                margin : 20px;
+            }
+
+            #jumbo-circle {
+                position: relative;
+                left: 0% !important;
+                width: 350px;
+                height: 350px;
             }
         }
 
         #brand-nav {
             margin-left : 60px;
+        }
+
+        .card-img-top {
+            height : 200px;
+            border-bottom : 1px black solid;
+        }
+
+        .card {
+            height : 610px;
+        }
+
+        .card:hover {
+            transition: transform 0.4s;
+            transform: scale(1.05);
+        }
+
+        .repo-link {
+            position : absolute;
+            bottom : 10px;
         }
 
       
@@ -118,7 +151,7 @@
 
 <body>
 
-    <nav class="navbar navbar-expand-sm navbar-light bg-light">
+    <nav class="navbar navbar-expand navbar-light bg-light">
         
         <ul id="brand-nav" class="navbar-nav mr-auto">
             <li class="nav-item active">
@@ -127,14 +160,14 @@
         </ul>
 
         <ul id="social-links" class="navbar-nav ml-auto">
-            <li class="nav-item active">
-                <a class="navbar-brand" href="#"><i class="fab fa-github"></i></a>
+            <li class="nav-item">
+                <a class="navbar-brand" href="https://github.com/nitishbala2000"><i class="fab fa-github"></i></a>
             </li>
-            <li class="nav-item active">
-                <a class="navbar-brand" href="#"><i class="fab fa-facebook"></i></a>
+            <li class="nav-item">
+                <a class="navbar-brand" href="https://www.facebook.com/nitishbala2000"><i class="fab fa-facebook"></i></a>
             </li>
-            <li class="nav-item active">
-                <a class="navbar-brand" href="#"><i class="fab fa-instagram"></i></a>
+            <li class="nav-item">
+                <a class="navbar-brand" href="https://www.instagram.com/nitishbala2000/"><i class="fab fa-instagram"></i></a>
             </li>
         </ul>
 
@@ -150,7 +183,7 @@
             <p class="lead white-text text-muted text-center">20 year old developer</p>
 
             <p class="lead text-center">
-                <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+                <a class="btn btn-primary btn-lg" href="#about-me" role="button">Learn more</a>
             </p>
 
         </div>
@@ -159,16 +192,14 @@
 
     <div class="container">
 
-        <h1 class="section-title">About me</h1>
+        <h1 id="about-me" class="section-title">About me</h1>
 
         <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ac sem tincidunt, dictum nunc hendrerit,
-            posuere mi. Praesent eu ex suscipit, egestas metus eget, dictum eros. Fusce eleifend ante quis rutrum
-            sodales. Aliquam a libero vel nulla condimentum iaculis. In vehicula nisi sem, at commodo ex hendrerit nec.
-            Nunc molestie consectetur accumsan. Donec semper odio at mauris gravida, eget venenatis magna rutrum. Fusce
-            a mauris orci. Praesent eu enim egestas, lobortis ex vel, varius lacus. Nullam dolor diam, condimentum quis
-            turpis a, ultricies imperdiet justo. Nullam lobortis pretium mi ac tincidunt. Maecenas sit amet luctus diam,
-            vel cursus risus.
+            I'm a second year undergraduate studying Computer Science at Cambridge University. My interests include web development,
+            game development, deep learning and cloud computing, but I tend to enjoy general programming, having solved hundreds of challenges
+            several coding sites such as <a href="https://projecteuler.net/">ProjectEuler</a>, <a href="https://www.codeabbey.com/">CodeAbbey</a>and 
+            <a href="https://www.hackerrank.com/">HackerRank</a>. Outside of Acadaemia, I enjoy playing music, raquet sports and cooking. I am also
+            the webmaster of <a href="https://kalyaniderby.com/">kalyaniderby.com</a>, an Indian clothing online store based in Derby, UK
         </p>
 
         <h1 class="section-title">Projects</h1>
@@ -178,12 +209,14 @@
             <div class="col-sm-3">
 
                 <div class="card">
-                    <img src="photo.jpg" class="card-img-top" alt="...">
+                    <img src="ontology.jpg" class="card-img-top">
                     <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                            of the card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                        <h5 class="card-title">Internship - DSTL 2019</h5>
+                        <p class="card-text">
+                            Researched, implemented and compared advanced machine learning models for node classification in knowledge graphs,
+                            with a focus on scalable, memory-efficient solutions. Due to the official nature of the work, the source code is not publicly available
+                        </p>
+
                     </div>
                 </div>
 
@@ -192,12 +225,17 @@
             <div class="col-sm-3">
 
                 <div class="card">
-                    <img src="photo.jpg" class="card-img-top" alt="...">
+                    <img src="amazon-s3.jpg" class="card-img-top">
                     <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                            of the card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                        <h5 class="card-title">Internship - Amazon 2020</h5>
+                        <p class="card-text">
+                            Added a feature to Amazon Web Service's main storage service, S3, for customers to fetch compressed files 
+                            and transparently get the decompressed version of that file
+                        
+                        </p>
+                        <button class="repo-link btn btn-primary" data-toggle="tooltip" data-placement="top" title="This repository will be made publicly available in December 2020">
+                            Go to repository
+                        </button>
                     </div>
                 </div>
 
@@ -206,12 +244,15 @@
             <div class="col-sm-3">
 
                 <div class="card">
-                    <img src="photo.jpg" class="card-img-top" alt="...">
+                    <img src="alexa-skill.jpeg" class="card-img-top">
                     <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                            of the card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                        <h5 class="card-title">Alexa Skill - onboard buddy</h5>
+                        <p class="card-text">
+                            An Alexa Skill that helps AWS interns learn all of the terms and definitions needed to start
+                            their internship. The skill is a flashcard system that uses an advanced spaced repition algorithm to optimally
+                            schedule flashcards for retention, using advanced NLP to recognise users' answers
+                        </p>
+                        <a href="https://github.com/Skyr-High-Labs/alexa-hackathon-2020" class="repo-link btn btn-primary">Go to repository</a>
                     </div>
                 </div>
 
@@ -222,12 +263,15 @@
             <div class="col-sm-3">
 
                 <div class="card">
-                    <img src="photo.jpg" class="card-img-top" alt="...">
+                    <img src="cambridge.jpg" class="card-img-top">
                     <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                            of the card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                        <h5 class="card-title">CUCL ticking system</h5>
+                        <p class="card-text">
+                            A web application written for the Cambridge University Computer Lab to allow students to view
+                            the results of their assignments in one place, as well as allowing different members of staff to
+                            perform different administrative tasks
+                        </p>
+                        <a href="https://gitlab.com/reivilibre/lima-markbooks" class="repo-link btn btn-primary">Go to repository</a>
                     </div>
                 </div>
 
@@ -269,6 +313,12 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
         integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
         crossorigin="anonymous"></script>
+
+    <script>
+        $(function () {
+            $('[data-toggle="tooltip"]').tooltip()
+        });
+    </script>
 </body>
 
 
