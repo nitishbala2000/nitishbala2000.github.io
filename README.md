@@ -1,1 +1,1 @@
-My personal website. Visit at [https://www.nitishbala2000.github.io](https://www.nitishbala2000.github.io)
+My personal website. Visit at [https://nitishbala2000.github.io](https://nitishbala2000.github.io)
