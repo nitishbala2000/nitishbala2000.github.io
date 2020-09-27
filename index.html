@@ -10,142 +10,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <script src="https://kit.fontawesome.com/096fe1a924.js" crossorigin="anonymous"></script>
 
-    <style>
-
-        html {
-            position: relative;
-            min-height: 100%;
-        }
-
-        
-        body {
-            margin-bottom: 80px; /* Margin bottom by footer height */
-            background-color: #F7F7F7;
-            padding : 0px;
-        }
-
-        .footer {
-           
-            position: absolute;
-            bottom: 0;
-            width: 100%;
-            height: 60px; /* Set the fixed height of the footer here */
-            background-color: #FF8A65;
-            padding-top : 20px;
-        }
-
-
-        .section-title {
-            overflow: hidden;
-            text-align: center;
-            margin-top : 25px;
-            margin-bottom : 25px;
-        }
-
-        .section-title:before,
-        .section-title:after {
-            background-color: #606060;
-            content: "";
-            display: inline-block;
-            height: 1px;
-            position: relative;
-            vertical-align: middle;
-            width: 50%;
-        }
-
-        .section-title:before {
-            right: 0.5em;
-            margin-left: -50%;
-        }
-
-        .section-title:after {
-            left: 0.5em;
-            margin-right: -50%;
-        }
-
-     
-        #jumbo {
-            background-repeat: no-repeat;
-            background-size: cover;
-            background-image: url("jumbotron-background.png");
-        }
-
-        #jumbo-circle {
-            margin: auto;
-            background-color: black;
-            width: 400px;
-            height: 400px;
-            border-radius: 200px;
-            position: relative;
-            left: 10%;
-            padding-top: 100px;
-            padding-left: 20px;
-        }
-
-        .white-text {
-            color: white;
-        }
-
-        .badge-list {
-            font-size: 20px;
-        }
-
-        nav {
-            height : 80px;
-        }
-
-        .fab {
-            font-size : 30px;
-            margin-right : 20px;
-        }
-
-        .fab:hover {
-            color : grey !important;
-        }
-
-        @media only screen and (max-width: 1200px) {
-            
-            #brand-nav {
-                margin-left : 5px !important;
-            }
-            
-            .card {
-                margin : 20px;
-            }
-
-            #jumbo-circle {
-                position: relative;
-                left: 0% !important;
-                width: 350px;
-                height: 350px;
-            }
-        }
-
-        #brand-nav {
-            margin-left : 60px;
-        }
-
-        .card-img-top {
-            height : 200px;
-            border-bottom : 1px black solid;
-        }
-
-        .card {
-            height : 610px;
-        }
-
-        .card:hover {
-            transition: transform 0.4s;
-            transform: scale(1.05);
-        }
-
-        .repo-link {
-            position : absolute;
-            bottom : 10px;
-        }
-
-      
-    </style>
+    <link rel="stylesheet" href="./styles/style.css">
 </head>
 
 <body>
@@ -160,13 +25,13 @@
 
         <ul id="social-links" class="navbar-nav ml-auto">
             <li class="nav-item">
-                <a class="navbar-brand" href="https://github.com/nitishbala2000"><i class="fab fa-github"></i></a>
+                <a href="https://github.com/nitishbala2000"><i class="fab fa-github"></i></a>
             </li>
             <li class="nav-item">
-                <a class="navbar-brand" href="https://www.facebook.com/nitishbala2000"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.linkedin.com/in/nitish-bala-83a3701b4/"><i class="fab fa-linkedin"></i></a>
             </li>
             <li class="nav-item">
-                <a class="navbar-brand" href="https://www.instagram.com/nitishbala2000/"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i id="mail-icon" class="far fa-envelope"></i></a>
             </li>
         </ul>
 
@@ -194,11 +59,35 @@
         <h1 id="about-me" class="section-title">About me</h1>
 
         <p>
-            I'm a second year undergraduate studying Computer Science at Cambridge University. My interests include web development,
-            game development, deep learning and cloud computing, but I tend to enjoy general programming, having solved hundreds of challenges
+            I'm a <strong>third year undergraduate</strong> studying Computer Science at <strong>Cambridge University</strong>. My interests include web development,
+            app development, deep learning and cloud computing, but I tend to enjoy general programming, having solved hundreds of challenges
             several coding sites such as <a href="https://projecteuler.net/">ProjectEuler</a>, <a href="https://www.codeabbey.com/">CodeAbbey</a> and 
             <a href="https://www.hackerrank.com/">HackerRank</a>. Outside of Academia, I enjoy playing music, raquet sports and cooking. I am also
             the webmaster of <a href="https://kalyaniderby.com/">kalyaniderby.com</a>, an Indian clothing online store based in Derby, UK
+        </p>
+
+        <p>
+            As well as the projects and internships below, I do a lot of side projects as hobbies. Here are some single page applications I have
+            recently made, all available on the web:
+
+            <ul>
+                <li class="app-link">
+                    <a href="https://nitishbala2000.github.io/javascriptGames/">https://nitishbala2000.github.io/javascriptGames/</a> - a games site where I 
+                    recreate common games such as breakout as well as some original games too using JavaScript canvas
+                </li> 
+                <li class="app-link">
+                    <a href="https://nitishbala2000.github.io/burger-builder/">https://nitishbala2000.github.io/burger-builder/</a> - a react application made
+                    to learn the basics of react, including routing and redux. The majority was made as part of a tutorial from a Udemy course, but there are
+                    a few extensions including UI changes as well as adding a user's system with authentication using firebase
+                </li> 
+                <li class="app-link">
+                    <a href="https://nitishbala2000.github.io/SortingVisualiser/">https://nitishbala2000.github.io/SortingVisualiser/</a> - a react application
+                    that allows users to learn about and visualise four popular sorting algorithms. The project was inspired by youtuber 
+                    <a href="https://www.youtube.com/watch?v=n4t_-NjY_Sg&t=667s">Clément Mihailescu</a>, but many changes were made including a more responsive UI and
+                    very different animation logic
+                </li>
+
+            </ul>
         </p>
 
         <h1 class="section-title">Projects</h1>
@@ -208,7 +97,7 @@
             <div class="col-xl-3 col-md-6">
 
                 <div class="card">
-                    <img src="ontology.jpg" class="card-img-top">
+                    <img src="./images/ontology.jpg" class="card-img-top">
                     <div class="card-body">
                         <h5 class="card-title">Internship - DSTL 2019</h5>
                         <p class="card-text">
@@ -224,14 +113,15 @@
             <div class="col-xl-3 col-md-6">
 
                 <div class="card">
-                    <img src="amazon-s3.jpg" class="card-img-top">
+                    <img src="./images/amazon-s3.jpg" class="card-img-top">
                     <div class="card-body">
                         <h5 class="card-title">Internship - Amazon 2020</h5>
                         <p class="card-text">
-                            Added a feature to Amazon Web Service's main storage service, S3, for customers to fetch compressed files 
-                            and transparently get the decompressed version of that file
-                        
+                            Created a sample application to demonstrate the use of a new feature currently in development for AWS' main storage service, S3. 
+                            Due to an NDA, no further information can be disclosed until the feature is made public in December 2020
+                            
                         </p>
+
                         <button class="repo-link btn btn-primary" data-toggle="tooltip" data-placement="top" title="This repository will be made publicly available in December 2020">
                             Go to repository
                         </button>
@@ -243,15 +133,17 @@
             <div class="col-xl-3 col-md-6">
 
                 <div class="card">
-                    <img src="alexa-skill.jpeg" class="card-img-top">
+                    <img src="./images/alexa-skill.jpeg" class="card-img-top">
                     <div class="card-body">
                         <h5 class="card-title">Alexa Skill - onboard buddy</h5>
                         <p class="card-text">
-                            An Alexa Skill that helps AWS interns learn all of the terms and definitions needed to start
-                            their internship. The skill is a flashcard system that uses an advanced spaced repition algorithm to optimally
-                            schedule flashcards for retention, using advanced NLP to recognise users' answers
+                            A hackathon project to help AWS interns with their preonboarding process. The output was an <strong>Alexa Skill</strong>
+                            that acts as a <strong>flashcard</strong> system that uses advanced spaced repetition algorithms and NLP to help interns learn the terms and definitions
+                            needed for their internship
                         </p>
-                        <a href="https://github.com/Skyr-High-Labs/alexa-hackathon-2020" class="repo-link btn btn-primary">Go to repository</a>
+                        <button class="repo-link btn btn-primary" data-toggle="tooltip" data-placement="top" title="We are in the process of getting permission from Amazon to make this public">
+                            Go to repository
+                        </button>
                     </div>
                 </div>
 
@@ -262,7 +154,7 @@
             <div class="col-xl-3 col-md-6">
 
                 <div class="card">
-                    <img src="cambridge.jpg" class="card-img-top">
+                    <img src="./images/cambridge.jpg" class="card-img-top">
                     <div class="card-body">
                         <h5 class="card-title">CUCL ticking system</h5>
                         <p class="card-text">
@@ -270,7 +162,9 @@
                             the results of their assignments in one place, as well as allowing different members of staff to
                             perform different administrative tasks
                         </p>
-                        <a href="https://gitlab.com/reivilibre/lima-markbooks" class="repo-link btn btn-primary">Go to repository</a>
+                        <button class="repo-link btn btn-primary" data-toggle="tooltip" data-placement="top" title="This will be made public when the system has been fully ported">
+                            Go to repository
+                        </button>
                     </div>
                 </div>
 
@@ -285,8 +179,9 @@
             <span class="badge badge-primary">Python</span>
             <span class="badge badge-primary">VB</span>
             <span class="badge badge-primary">JavaScript</span>
-            <span class="badge badge-primary">Full MAMP stack</span>
-            <span class="badge badge-primary">Game Development</span>
+            <span class="badge badge-primary">PHP</span>
+            <span class="badge badge-primary">React</span>
+            <span class="badge badge-primary">TypeScript</span>
         </p>
 
     </div>
@@ -294,9 +189,7 @@
         
 
     <footer class="footer">
-        
         <p class="text-muted text-center">&copy;2020 Nitish Bala</p>
-        
     </footer>
         
 
@@ -315,8 +208,15 @@
 
     <script>
         $(function () {
-            $('[data-toggle="tooltip"]').tooltip()
+            $('[data-toggle="tooltip"]').tooltip();
+
+            $('#mail-icon').click(function (event) {
+
+                document.location = "mailto:nitishbala2000@gmail.com"
+            });
         });
+
+
     </script>
 </body>
 
