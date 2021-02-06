@@ -1,0 +1,26 @@
+.SectionTitle {
+    overflow: hidden;
+    text-align: center;
+    margin-bottom : 25px;
+}
+
+.SectionTitle:before,
+.SectionTitle:after {
+    background-color: #606060;
+    content: "";
+    display: inline-block;
+    height: 1px;
+    position: relative;
+    vertical-align: middle;
+    width: 50%;
+}
+
+.SectionTitle:before {
+    right: 0.5em;
+    margin-left: -50%;
+}
+
+.SectionTitle:after {
+    left: 0.5em;
+    margin-right: -50%;
+}

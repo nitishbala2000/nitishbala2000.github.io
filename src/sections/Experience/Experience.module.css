@@ -1,0 +1,33 @@
+.ProjectDiv {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    border-radius: 10px;
+    border: 1px solid #eee;
+    box-shadow: 0 2px 3px #ccc;
+}
+
+.ProjectDiv img {
+    width: 50%;
+    min-width: 50%;
+    max-width: 50%;
+    border-radius : 10px;
+}
+
+.ProjectDiv div {
+    padding: 20px;
+}
+
+@media (max-width : 1000px) {
+    .ProjectDiv {
+        flex-direction: column;
+    }
+
+    .ProjectDiv img {
+        width: 100%;
+        min-width: 100%;
+        max-width: 100%;
+
+        max-height: 400px;
+    }
+}

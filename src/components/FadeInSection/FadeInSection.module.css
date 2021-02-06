@@ -1,0 +1,23 @@
+.Left {
+  opacity: 0;
+  transform: translateX(20vw);
+  transition: opacity 0.6s ease-out, transform 1.2s ease-out;
+}
+
+.Right {
+  opacity: 0;
+  transform: translateX(-20vw);
+  transition: opacity 0.6s ease-out, transform 1.2s ease-out;
+}
+
+.Up {
+  opacity: 0;
+  transform: translateY(200px);
+  transition: opacity 0.6s ease-out, transform 1.2s ease-out;
+}
+
+
+.IsVisible {
+  opacity: 1;
+  transform: none;
+}

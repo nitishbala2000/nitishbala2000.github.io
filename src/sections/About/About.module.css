@@ -1,0 +1,11 @@
+.ImageWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width : 800px) {
+    .ImageWrapper {
+        margin-top: 50px;
+    }
+}

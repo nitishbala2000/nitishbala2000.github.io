@@ -1,0 +1,30 @@
+.Footer {
+    background-color: #1B242F;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: white;
+}
+
+.ButtonDiv {
+    display: flex;
+    justify-content: center;
+}
+
+.ButtonDiv a {
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+    margin: 5px;
+    background-color: #262F38;
+    transition: background-color 0.5s ease-out;
+}
+
+.ButtonDiv a:hover {
+    color: white;
+    background-color: #04C2C9;
+}
+
+.Footer p {
+    text-align: center;
+    margin-top: 20px;
+}
