@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.358d5702.chunk.css",
-    "main.js": "/static/js/main.69bb2f69.chunk.js",
-    "main.js.map": "/static/js/main.69bb2f69.chunk.js.map",
+    "main.css": "/static/css/main.c85a2351.chunk.css",
+    "main.js": "/static/js/main.e32d538c.chunk.js",
+    "main.js.map": "/static/js/main.e32d538c.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.cc8c416d.js",
     "runtime-main.js.map": "/static/js/runtime-main.cc8c416d.js.map",
     "static/css/2.150d169a.chunk.css": "/static/css/2.150d169a.chunk.css",
@@ -10,7 +10,7 @@
     "static/js/2.7a9a3d8c.chunk.js.map": "/static/js/2.7a9a3d8c.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.150d169a.chunk.css.map": "/static/css/2.150d169a.chunk.css.map",
-    "static/css/main.358d5702.chunk.css.map": "/static/css/main.358d5702.chunk.css.map",
+    "static/css/main.c85a2351.chunk.css.map": "/static/css/main.c85a2351.chunk.css.map",
     "static/js/2.7a9a3d8c.chunk.js.LICENSE.txt": "/static/js/2.7a9a3d8c.chunk.js.LICENSE.txt",
     "static/media/amazon-s3.cefa725c.jpg": "/static/media/amazon-s3.cefa725c.jpg",
     "static/media/Hero.module.css": "/static/media/jumbotron-background.90a77150.png",
@@ -21,7 +21,7 @@
     "static/js/runtime-main.cc8c416d.js",
     "static/css/2.150d169a.chunk.css",
     "static/js/2.7a9a3d8c.chunk.js",
-    "static/css/main.358d5702.chunk.css",
-    "static/js/main.69bb2f69.chunk.js"
+    "static/css/main.c85a2351.chunk.css",
+    "static/js/main.e32d538c.chunk.js"
   ]
 }
