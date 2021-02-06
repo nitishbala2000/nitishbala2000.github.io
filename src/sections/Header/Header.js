@@ -5,7 +5,7 @@ import Scrollspy from "react-scrollspy";
 
 const Header = () => {
     return (
-        <Navbar bg="light" expand="lg" style={{minHeight: "80px"}} fixed="top">
+        <Navbar bg="light" expand="lg" style={{minHeight: "80px"}} sticky="top">
             
 
             <Container>
